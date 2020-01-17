@@ -35,8 +35,8 @@ function DevForm({ onSubmit }) {
       longitude,
     });
 
-    setGithubUsername('');
-    setTechs('');
+    setGithubUsername(' ');
+    setTechs(' ');
   }
 
   return (
