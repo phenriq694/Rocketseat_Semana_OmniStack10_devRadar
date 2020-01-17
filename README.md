@@ -16,6 +16,7 @@ Foi desenvolvido usando o ReactJS. Através dele podemos cadastrar novos usuári
 
 ## Mobile:
 Na versão mobile foi utilizado o React-Native para desenvolver a aplicação de localização dos devs cadastrados. Fazendo uma chamada no backend para coletar as coordenadas de cada dev e exibindo ele no mapa na posição correspondente. 
+Também foi utilizado o socket.io para atualizar no mapa, automaticamente, toda vez que um novo dev dentro da região de visualização do usuário no momento da pesquisa e ser exibido. 
 <p align="center"> 
   <img width=200 src="https://user-images.githubusercontent.com/54601930/72625677-fbd88400-3927-11ea-9033-f19892e4e86d.png" />
   <img width=200 src="https://user-images.githubusercontent.com/54601930/72625671-fb3fed80-3927-11ea-86b1-52bd3b477050.png" />
